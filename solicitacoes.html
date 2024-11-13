@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto GLPI - Solicitação </title>
+    <link rel="stylesheet" href="./css/solicitacoes.css">
+    <link rel="shortcut icon" href="./imgs/glpi.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="../work_danilo/menu.html" target="_self">Menu</a></li>
+                <li><a href="../work_felipe/chamados.html" target="_self">Histórico de solicitações</a></li>
+                <li><a href="../work_leandro-volpe/index.html" target="_self">Formulário de Login</a></li>
+            </ul>
+        </nav>
+        <header>
+            <img src="./imgs/glpi.ico" alt="GLPI" width="70px" height="70px">
+        </header>
+        <section>
+            <form action="" method="post">
+                <div class="containerP">
+                    <p>Este formulário é para relatar problemas geral com algum computador em específico.</p>
+                </div>
+                <div class="containerH1">
+                    <h1>Problemas com computador 🖥️</h1>
+                </div>
+
+                <div class="containerH1">
+                    <h1>Detalhes</h1>
+                </div>
+
+                <div class="inputContainer">
+                    <label for="selectComputer">Qual é o computador?</label>
+                    <p>Selecione o computador:</p>
+                    <p>(verifique a etiqueta colada no equipamento)</p>
+                    <div class="inputimg">
+                        <img src="./imgs/computador.png" width="25px" height="25px" >
+                        <input type="text" id="selectComputer" placeholder="Escreva a versão do seu computador..." required>
+                    </div>
+                </div>
+
+                <div class="inputContainer">
+                    <label for="descriptionProblem">
+                        Descrição rápida do problema:
+                    </label>
+                    <div class="inputimg">
+                        <img src="./imgs/problema.png" width="25px" height="25px" alt="">
+                        <input type="text" id="descriptionProblem" placeholder="Relate de forma concisa o problema..." required>
+                    </div>
+                </div>
+
+                <div class="containerButton">
+                    <button type="submit">Enviar Chamado</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>Desenvolvido por: João Victor - <a href="#">Repositório</a></p>
+          </footer>
+    </main>
+</body>
+</html>
